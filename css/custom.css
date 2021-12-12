@@ -1,0 +1,127 @@
+.parallax {
+    /* The image used */
+    background: linear-gradient(rgba(122, 81, 46, 0.7), rgba(104, 66, 32, 0.7)), url("../images/1.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0; */
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+p{
+  width: 242px;
+  height: 40px;
+  color:#000000;
+  background: rgba(238, 238, 207, 0.925);
+  animation: mymove 5s infinite;
+  font-family: 'Tangerine', cursive;
+  font-size: 25px;
+}
+@keyframes mymove {
+    from {background-color: rgb(240, 235, 169);}
+    to {background-color: rgb(247, 218, 123);}
+  }
+
+/*underline text */
+.text-line {
+    text-decoration: underline;
+    color: yellow;
+}
+
+.style-social-media {
+    padding: 10px;
+    font-size: 25px;
+    /* width: 24px;
+ /*height: 50px;
+  text-align: center;
+ /* text-decoration: none; */
+    /* margin: 5px 2px; */
+}
+
+.social-media {
+    color: hsla(39, 100%, 50%, 0.945);
+    font-size: 40px;
+}
+
+
+/*.contact{*/
+.g-font {
+    font-family: 'Bangers', cursive;
+    color: rgb(240, 235, 232);
+    font-size: 15px;
+}
+.g-font:hover{
+    color:rgb(209, 85, 13);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+}
+
+.paragraph {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(245, 237, 237);
+    font-size: 22px;
+}
+
+.text-font {
+    font-family: 'Bangers', cursive;
+    color: rgb(2, 2, 24);
+    font-size: 40px;
+}
+
+.head-color {
+    font-family: 'Bangers', cursive;
+    color: black;
+    font-size: 15px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: none;
+    color: #515151;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.read-more:focus {
+    text-decoration: none;
+    color: #c7c6d3;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.n-font {
+    font-family: 'Tangerine', cursive;
+    color: hsla(59, 98%, 51%, 0.945);
+    font-size: 50px;
+}
+
+.text {
+    background-color: hsla(59, 98%, 51%, 0.534);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.home-gallery-image-titles-effect .col-md-3:hover {
+    opacity: 0.5;
+    position: relative;
+    text-align: center;
+    color: white;
+}
